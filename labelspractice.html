@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Label Practice</title>
+</head>
+<body>
+<h1>Labels and Forms</h1>
+
+<form action="http://www.glimpse.global" method="get"></form>
+	<label for="email"> Email: </label>
+	<input id="email" type="email" name="email" placeholder="Email" required>
+	<label for="Username"> Username: </label>
+	<input id="Username" type="text" name="Username" placeholder="Username" required>
+
+	<label for="Passowrd"> Password: </label>
+	<input id="Passowrd" type="password" name="password" placeholder="Passowrd" required>
+
+	<p>Male or Female?</p>
+	<label for="Male">Male</label>
+	<input name="gender" id="Male" type="radio" value="Male">
+
+	<label for="Female">Female</label>
+	<input name="gender" id="Female" type="radio" value="Female">
+<br>
+	<label for="age">What is your age?</label>
+	<select id="age" name="age">
+		<option value="minor">-18</option>
+		<option value="middle age">18-36</option>
+		<option value="Gettin there">36-65</option>
+		<option value="Senior">65+</option>
+	</select>
+<br>
+	<textarea rows="10" cols="50">Description</textarea>
+<br>
+	<label for="Privacy" >Do you agree to the following?</label>
+	<input id="Privacy" type="checkbox">
+	<input type="submit">
+
+</body>
+</html>

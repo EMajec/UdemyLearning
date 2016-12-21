@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+<h1>Labels and Forms</h1>
+
+<form action="http://www.glimpse.global" method="get">
+
+	<label for="First Name"> First Name: </label>
+	<input id="First Name" type="text" name="First Name" placeholder="John" required>
+
+	<label for="Last Name"> Last Name: </label>
+	<input id="Last Name" type="Last Name" name="Last Name" placeholder="Smith" required>
+
+<br>
+	<label for="Male">Male</label>
+	<input name="gender" id="Male" type="radio" value="Male">
+
+	<label for="Female">Female</label>
+	<input name="gender" id="Female" type="radio" value="Female">
+
+	<label for="Other">Other</label>
+	<input name="gender" id="Other" type="radio" value="Other">
+<br>
+	<label for="email"> Email: </label>
+	<input id="email" type="email" name="email" placeholder="your email" required>
+	<label for="Password"> Password: </label>
+	<input id="Password" type="Password" name="Password" placeholder="your password" maxlength="10" minlength="5" required>
+<br>
+	<label for="age">What is your age?</label>
+	<select id="age" name="Month">
+		<option value="Month">Month</option>
+		<option>Jan-April</option>
+		<option>May-Aug</option>
+		<option>Setp-Dec</option>
+	</select>
+	<select id="age" name="Day">	
+		<option value="Day">Day</option>
+		<option>1-10</option>
+		<option>11-20</option>
+		<option>21-31</option>
+	</select>
+	<select id="age" name="Year">
+		<option value="Year">Year</option>
+		<option>1995</option>
+		<option>1996</option>
+		<option>1997</option>
+	</select>
+
+<br>
+	<label for="terms" >I agree to the terms and conditions</label>
+	<input id="terms" type="checkbox">
+	<input type="submit">
+</form>
+
+</body>
+</html>
