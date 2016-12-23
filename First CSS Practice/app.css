@@ -1,0 +1,31 @@
+/*
+li{
+	color: #00FF00;
+}
+
+h4{
+color: purple;
+
+}
+
+h1{
+	color: rgba(245, 0, 0, .7);
+}*/
+
+h1 {
+	color: rgba(0, 200, 100, .8);
+/*	border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+	border: 2px solid purple;
+}
+h4{	
+	background: rgb(255,100,80);
+}
+
+body {	
+	background: pink;
+/*	background: url(http://wallpapercave.com/wp/130GzNN.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
