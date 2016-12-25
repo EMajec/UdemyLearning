@@ -1,0 +1,55 @@
+h1{
+	text-align: center;
+}
+table {
+	margin: 0 auto;
+	width: 400px;
+	height: 400px;
+}
+
+.firstrow {
+	text-align: center;
+	padding: 18px;
+}
+
+.secondrow{
+	text-align: center;
+	padding: 18px;
+}
+
+
+.thirdrow{
+	text-align: center;
+	padding: 18px;
+}
+
+#mid1 {
+	border-right: 4px solid black;
+	border-left: 4px solid black;
+	padding: 18px;
+}
+
+#mid2 {
+	border-right: 4px solid black;
+	border-left: 4px solid black;
+	border-bottom: 4px solid black;
+	border-top: 4px solid black;
+	padding: 18px;
+}
+
+#mid3 {
+	border-right: 4px solid black;
+	border-left: 4px solid black;
+	padding: 18px;
+}
+
+#top2 {
+	border-bottom: 4px solid black;
+	border-top: 4px solid black;
+	padding: 18px;
+}
+#bottom2 {
+	border-bottom: 4px solid black;
+	border-top: 4px solid black;
+	padding: 18px;
+}

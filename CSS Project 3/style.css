@@ -1,0 +1,31 @@
+h1 {
+	font-family: 'Roboto', sans-serif;
+	border-bottom: 1px solid rgba(0,0,0,.75);
+	width: 1200px;
+	margin-left: 1.66%;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+
+img {
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+
+}
+
+#row1{
+	margin: 10px;
+	float: center;
+	width: 1200px;
+}
+#row2{
+	margin: 10px;
+	float: center;
+	width: 1200px;
+}
+#row3{
+	margin: 10px;
+	float: center;
+	width: 1200px;
+}
