@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM Manipulation</title>
+</head>
+<body>
+
+<h1>My header</h1>
+
+	<p>console.dir()</p>
+	<p> 
+	document.links
+	document.body
+	document.URL
+	
+	</p>
+	<p>
+		variable.style.color = "blue"
+		variable.style.border = "5px solid pink"
+		variable.style.fontSize = "70px"
+		variable.style.background = "yellow"
+		tag.style.marginTop = "2em"
+
+		(Create a CSS Class that you turn on and off with JavaScript! so instead...)
+
+		"
+		.someclass {
+			color: blue;
+			border: 5px solid pink
+			font-size: 70px
+			...
+		}
+		element.classList.add("someclass")
+		"
+
+		variable.classList.add("")
+		variable.classList.remove("")
+		variable.classList.toggle("")
+
+	</p>
+	<p>
+		variable.textContent will retrieve text, but not tags like strong or emphasis
+
+		variable.textContent = "blah blah blah"
+
+		variable.innerHTML will retrive the HTML code and can be written as HTML
+	</p>
+
+	<p>
+	document.getElementById()
+	document.getElementByClassName()
+	document.getElementByTagName()
+	document.querySelector(# = id, . = class (only first element)
+	document.querySelector("h1", only selects the first element
+	)
+	document.querySelector(li a.special) just like CSS
+	document.querySelectorAll("li") gives all elements of the type
+
+	always use a [] to indicate which element you want of the type you are calling
+
+	document.getElementById("first")
+	document.getElementByClassName("special")
+	document.querySelector("#first")
+	document.querySelector(".special")
+
+	all changes must be made in ""s
+	variable.getElementbyTagName('img')[0]
+	variable.getAttribute('href')
+	variable.setAttribute('href,new')
+	variable.getAttribute('src')
+	variable.setAttribute('src,new')
+
+   </p>
+</body>
+</html>
