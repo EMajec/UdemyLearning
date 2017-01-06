@@ -1,0 +1,12 @@
+body {
+	text-align: center;
+	background-image: url(https://d13yacurqjgara.cloudfront.net/users/375867/screenshots/1480136/game-assets-game-background-sidescroller.png);
+	background-position: center;
+	background-size: cover;
+	font-family: helvetica;
+}
+
+.Score {
+	color: green;
+}
+
