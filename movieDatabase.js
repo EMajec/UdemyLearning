@@ -29,7 +29,7 @@ movieDatabase.forEach(function(movie){
 	else{
 		results += "not watched ";
 	}
-	results += "\"" +movieDatabase.name + "\"";
-	results += " - " + movieDatabase.rating + " stars";
+	results += "\"" +movie.name + "\"";
+	results += " - " + movie.rating + " stars";
 	console.log(results)
 });
