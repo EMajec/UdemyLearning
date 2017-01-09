@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Methods</title>
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+
+</head>
+<body>
+<h1>jQuery Methods Demo Page</h1>
+
+<ul>
+	<li>Snickers</li>
+	<li>Sour Patch</li>
+	<li>Skittles</li>
+</ul>
+<p>.text() allows us to get the text, or change text <br>
+.html() is the equivalent of innerHTML in javascript <br>
+.attr("element","attribute") retrieves the value for the attribute, or sets an attribute <br>
+.last() will get the last element from the $("element"). <br>
+.val() gets the value of information from input or sets the value <br>
+.addClass() , .removeClass(), .toggleClass() are the same as in vanilla JS. <br>
+.click("function") when element is clicked, a certain function is run<br>
+.keyPress("") use the "which" key for signaling a website. event.which === 13 is if the enter button is pressed.<br>
+.on() takes place of all the other methods, and we can enter our event in the .on("event type", function), this makes sure that you can do things with stuff that has not appeared on the page yet.<br>
+$(this) = jquery version of vanilla "this"
+</p>
+	<input type="text" placeholder="Your name">
+
+
+<p>Effects and animations are in jQuery as well. <br>
+	.fadeOut("time/speed", function after fade completes)
+	
+	</p>
+</body>
+</html> 
